@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -360,6 +359,18 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+.object-fit{
+    object-fit: cover;
+    width: 100%;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.pad-5{
+    padding: 5px;
+    margin-right: 10px;
 }
 
 @media (min-width: 768px) {
